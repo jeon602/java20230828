@@ -17,6 +17,8 @@ public class C06class {
 
     }
 }
+
+/// 변경....
 class MyClass01 {
     //instance fields
     //인스턴스가 가져야 하는 속성들
