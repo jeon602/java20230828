@@ -10,7 +10,7 @@ public class C06class {
 
         MyClass01 o2 = o1;
         System.out.println("o2.age = "+ o2.age);
-        o1.age = 60;
+        o1.age = 80;
 
         System.out.println("o2.age = " + );
         //hy
