@@ -6,7 +6,7 @@ public class C10method {
 		int[] a = {3,4,5};
 		System.out.println("main 메소드");
 		System.out.println(System.identityHashCode(a));
-		method1
+//		method1;
 		System.out.println("메소드 호출 후");
 		System.out.println(a[0]); //33
 		
