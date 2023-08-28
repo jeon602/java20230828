@@ -14,7 +14,7 @@ public class C06class {
 
         System.out.println("o2.age = " + );
 
-
+//0828
     }
 }
 
