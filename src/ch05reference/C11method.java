@@ -3,15 +3,16 @@ package ch05reference;
 public class C11method {
 
 	public static void main(String[] args) {
-		int[] a = method();
-		System.out.println("메인 내부");
+		int[] a = method1();
+		
+		System.out.println("main method");
 		System.out.println(System.identityHashCode(a));
 	}
 
-	public static int[] method() {
+	public static int[] method1() {
 		int[] c = {9,7,5};
 		
-		System.out.println("메소드1 내부");
+		System.out.println("method1 내부");
 		System.out.println(System.identityHashCode(c));
 		
 		return c;
