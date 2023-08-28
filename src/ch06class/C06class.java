@@ -13,7 +13,7 @@ public class C06class {
         o1.age = 60;
 
         System.out.println("o2.age = " + );
-
+        //hy
 //0828
     }
 }
