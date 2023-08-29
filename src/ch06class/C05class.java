@@ -24,7 +24,7 @@ public class C05class {
 class MyClass05 {
     //속성이 작성될 수 있도록
     int age; //instance field
-    static String model; //클래스 자체 static field class field라고도 함 정적필드
+    static String model; //클래스 자체 static field class field 라고도 함 정적필드
     //static이 붙으면 클래스에 있는 값을 의미
 
 }
