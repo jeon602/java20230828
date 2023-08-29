@@ -1,4 +1,4 @@
-package ch07extends.lecture;
+package ch07extends;
 
 public class C01extends {
     public static void main(String[] args) {

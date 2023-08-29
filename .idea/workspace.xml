@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="06097d20-161d-4a65-af3e-5fafbd2b578b" name="Changes" comment="1117">
+      <change afterPath="$PROJECT_DIR$/src/ch07extends/lecture/C04extends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch07extends/lecture/C05override.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch07extends/lecture/C06override.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch07extends/lecture/C03extends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07extends/lecture/C03extends.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2UbVFtdE1u6s4xxw3v5ApCtFzZr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/java20230828&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.C06override">
+    <configuration name="C01extends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07extends.lecture.C01extends" />
+      <module name="java20230828" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch07extends.lecture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03extends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07extends.lecture.C03extends" />
+      <module name="java20230828" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch07extends.lecture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05override" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07extends.lecture.C05override" />
+      <module name="java20230828" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch07extends.lecture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C06override" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07extends.lecture.C06override" />
+      <module name="java20230828" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch07extends.lecture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C08static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06class.C08static" />
+      <module name="java20230828" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch06class.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.C06override" />
+        <item itemvalue="Application.C05override" />
+        <item itemvalue="Application.C03extends" />
+        <item itemvalue="Application.C08static" />
+        <item itemvalue="Application.C01extends" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06097d20-161d-4a65-af3e-5fafbd2b578b" name="Changes" comment="" />
+      <created>1693208166521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693208166521</updated>
+      <workItem from="1693208167653" duration="3572000" />
+      <workItem from="1693267748842" duration="11090000" />
+      <workItem from="1693278959856" duration="1267000" />
+    </task>
+    <task id="LOCAL-00001" summary="8월 29일 오전 9시 38분">
+      <option name="closed" value="true" />
+      <created>1693269518981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693269518981</updated>
+    </task>
+    <task id="LOCAL-00002" summary="8월 29일 오전 9시 47분">
+      <option name="closed" value="true" />
+      <created>1693270087301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693270087301</updated>
+    </task>
+    <task id="LOCAL-00003" summary="8월 29일 오전 10시 26분">
+      <option name="closed" value="true" />
+      <created>1693272378740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693272378740</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1117">
+      <option name="closed" value="true" />
+      <created>1693275457759</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693275457759</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="8월 29일 오전 9시 38분" />
+    <MESSAGE value="8월 29일 오전 9시 47분" />
+    <MESSAGE value="8월 29일 오전 10시 26분" />
+    <MESSAGE value="1117" />
+    <option name="LAST_COMMIT_MESSAGE" value="1117" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ch06class/C07method.java</url>
+          <line>3</line>
+          <properties class="ch06class.C07method" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ch06class/C08static.java</url>
+          <line>3</line>
+          <properties class="ch06class.C08static" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ch07extends/lecture/C03extends.java</url>
+          <line>3</line>
+          <properties class="ch07extends.lecture.C03extends" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ch06class/C07method.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ch06class/C07method.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
