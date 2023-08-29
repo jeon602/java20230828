@@ -1,5 +1,5 @@
 package ch07extends.book.sec04.exam01;
-    public class Computer extends Calulator{
+    public class Computer extends Calulator{ //컴이 상속받음
         @Override
         public double areaCircle(double r) {
             System.out.println("Computer 객체의 areacircle()실행");

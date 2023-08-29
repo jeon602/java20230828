@@ -11,6 +11,6 @@ public class ComputerExample {
 
         Computer computer =new Computer();
         System.out.println("원면적 " + computer.areaCircle(r));
-
+    //왜 값이 다른가> calculator javafh
     }
 }
