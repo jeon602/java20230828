@@ -1,4 +1,4 @@
-package ch07extends.book.sec04.exam01;
+package ch07extends.book.exam01;
 
 public class Calulator {
     public double areaCircle(double r) {

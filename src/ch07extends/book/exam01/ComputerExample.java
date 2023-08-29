@@ -1,4 +1,4 @@
-package ch07extends.book.sec04.exam01;
+package ch07extends.book.exam01;
 
 public class ComputerExample {
     public static void main(String[] args) {
