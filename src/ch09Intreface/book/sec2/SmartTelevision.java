@@ -1,6 +1,6 @@
 package ch09Intreface.book.sec2;
 
-public class SmartTelevision implements RemoteContol,Searchable{
+public class SmartTelevision extends Searchable implements RemoteContol {
     public void turnOn(){
         System.out.println("티비를 켭니다.");
     }
