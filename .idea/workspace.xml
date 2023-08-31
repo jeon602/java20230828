@@ -4,26 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06097d20-161d-4a65-af3e-5fafbd2b578b" name="Changes" comment="8월 29일 오후 14시 10분">
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/C12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/book/exam01/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/book/exam02/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/book/exam02/SupersonicAiplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/book/exam02/SupersonicAirplaneExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/book/exam03/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/book/exam03/ChildExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/book/exam03/Parant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/book/exercise/SnowTire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/book/exercise/SnowTireExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/book/exercise/Tire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/lecture/C08super.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/lecture/C09polymorpism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/lecture/C13cast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07extends/sec07/exam02.java" afterDir="false" />
+    <list default="true" id="06097d20-161d-4a65-af3e-5fafbd2b578b" name="Changes" comment="8/29 화요일 5시 52분">
+      <change afterPath="$PROJECT_DIR$/src/ch08/accessModifier/book/exam01/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch08/accessModifier/book/exam01/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch08/accessModifier/book/exam02/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch08/accessModifier/book/exam02/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch08/accessModifier/lecture/C03interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09Intreface/book/sec2/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09Intreface/book/sec2/RemoteContol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09Intreface/book/sec2/RemoteControlExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09Intreface/book/sec2/Searchable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09Intreface/book/sec2/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09Intreface/lecture/C01interface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07extends/book/sec04/exam01/Calulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07extends/book/exam01/Calulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07extends/book/sec04/exam01/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07extends/book/exam01/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07extends/book/sec04/exam01/ComputerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07extends/book/exam01/ComputerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AfternoonPractice/P01_311.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AfternoonPractice/P01_3112.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AfternoonPractice/P01_3113.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +70,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.C13cast">
-    <configuration name="C09polymorpism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch07extends.lecture.C09polymorpism" />
+  <component name="RunManager" selected="Application.C03interface">
+    <configuration name="C03interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch08.accessModifier.lecture.C03interface" />
       <module name="java20230828" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch07extends.lecture.*" />
+          <option name="PATTERN" value="ch08.accessModifier.lecture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupersonicAirplaneExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch07extends.book.sec04.exam02.SupersonicAirplaneExample" />
+    <configuration name="RemoteControlExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch09Intreface.book.sec2.RemoteControlExample" />
       <module name="java20230828" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch07extends.book.sec04.exam02.*" />
+          <option name="PATTERN" value="ch09Intreface.book.sec2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C03interface" />
+        <item itemvalue="Application.RemoteControlExample" />
         <item itemvalue="Application.C13cast" />
         <item itemvalue="Application.ChildExample" />
         <item itemvalue="Application.C10polymorphism" />
-        <item itemvalue="Application.SupersonicAirplaneExample" />
-        <item itemvalue="Application.C09polymorpism" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +156,8 @@
       <updated>1693208166521</updated>
       <workItem from="1693208167653" duration="3572000" />
       <workItem from="1693267748842" duration="11090000" />
-      <workItem from="1693278959856" duration="11775000" />
+      <workItem from="1693278959856" duration="15914000" />
+      <workItem from="1693441800801" duration="8169000" />
     </task>
     <task id="LOCAL-00001" summary="8월 29일 오전 9시 38분">
       <option name="closed" value="true" />
@@ -210,7 +207,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693285860568</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="8/29 화요일 4시 37분">
+      <option name="closed" value="true" />
+      <created>1693294694633</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693294694633</updated>
+    </task>
+    <task id="LOCAL-00008" summary="8/29 화요일 5시 52분">
+      <option name="closed" value="true" />
+      <created>1693298563462</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693298563462</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +247,9 @@
     <MESSAGE value="1117" />
     <MESSAGE value="8월 29일 오후 13시 55분" />
     <MESSAGE value="8월 29일 오후 14시 10분" />
-    <option name="LAST_COMMIT_MESSAGE" value="8월 29일 오후 14시 10분" />
+    <MESSAGE value="8/29 화요일 4시 37분" />
+    <MESSAGE value="8/29 화요일 5시 52분" />
+    <option name="LAST_COMMIT_MESSAGE" value="8/29 화요일 5시 52분" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -260,7 +275,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ch07extends/C03extends.java</url>
           <line>3</line>
-          <properties class="ch07extends.lecture.C03extends" method="main">
+          <properties class="ch07extends.C03extends" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
