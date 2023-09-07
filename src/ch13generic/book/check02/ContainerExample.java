@@ -11,6 +11,7 @@ public class ContainerExample {
         Container<Integer> container2 = new Container<Integer>();
         container2.set(6);
         int value = container2.getField();
+
     }
 }
 class Container<T> {
@@ -25,4 +26,5 @@ class Container<T> {
     public T getField(){
         return field;
     }
+
 }
