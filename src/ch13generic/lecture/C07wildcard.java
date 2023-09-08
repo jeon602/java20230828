@@ -1,5 +1,5 @@
 package ch13generic.lecture;
-
+//Animal
 public class C07wildcard {
     public static void main(String[] args) {
         Dog d= new Dog();

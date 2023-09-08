@@ -10,7 +10,6 @@ public class C08wildcard {
         o1.equals(null);
         o2.toString();
         o3.hashCode();
-
         //MyClass08<Object> o5 = new MyClass08<Dog>();
     }
 
