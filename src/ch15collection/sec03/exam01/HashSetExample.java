@@ -1,4 +1,4 @@
-package ch15collection.book.sec03.exam01;
+package ch15collection.sec03.exam01;
 
 import java.util.*;
 

@@ -1,7 +1,5 @@
 package ch15collection.lecture;
 
-import ch08.book.sec03.A;
-
 import java.util.ArrayList;
 import java.util.List;
 

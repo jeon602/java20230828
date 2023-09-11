@@ -1,4 +1,4 @@
-package ch15collection.book.sec02.exam01;
+package ch15collection.sec02.exam01;
 
 public class Board {
     private String title;

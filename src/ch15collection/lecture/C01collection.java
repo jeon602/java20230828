@@ -5,7 +5,7 @@ public class C01collection {
         //collection: 객체 (원소, 아이템. element, item)
         //담을 수 있는 instance
 
-        //element 추가 .삭제, 있는지 확인 , 갯수확인
+        //element 추가 .삭제, 있는지 확인 , 갯수 확인
 
     }
 }

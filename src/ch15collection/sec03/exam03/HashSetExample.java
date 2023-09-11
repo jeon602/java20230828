@@ -1,4 +1,4 @@
-package ch15collection.book.sec03.exam03;
+package ch15collection.sec03.exam03;
 //9월 11일  오전 첫 시간, 리뷰와 해석
 import java.util.*;
 
@@ -14,6 +14,20 @@ public class HashSetExample {
         //객체를 하나씩 가져와서 처리한다.
         Iterator<String> iterator= set.iterator();
         //객체를 하나 가져오기
+        //api Q : Interator : 탐색자. java collection framework
+        //hasnext()탐색할 것이 있는지 next() element찾아라
+//        interator.next(); --> String next = interator,next();
+//        System.out.println("next =" + next );
+        //반복문으로 바꾸기 while 문
+
+        //while (*){
+        // String next= interator.next ();
+        // System.out.println("next = "+ next);
+        // }
+
+//        for(String elem : set){
+//        sout~~~}
+
         while(iterator.hasNext()){
             String element = iterator.next();
             System.out.println(element);
