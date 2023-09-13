@@ -32,7 +32,7 @@ public class C16reduce {
 //  왜???? 리스트 2에서 최대값을 구할 수 없기 때문,,, 결과가 없음을 나타내기 위해 optional을 사용한다.
 
 //  reduce method는 stream 요소를 조합하여 결과를 얻기 위해 사용함.
-//  초기값을 제공하면 stream 이나 초기값을 가진 stream에서도 작동.
+//  초기값을 제공하면 stream 이나 초기값을 가진 stream에서도 작동. 
 //        결과는 초기값이 없으면 Optional로 감싸서 반환된다.
 
 
