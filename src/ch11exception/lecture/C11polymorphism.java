@@ -1,6 +1,5 @@
 package ch11exception.lecture;
-//9월 14일 11시 54분
-
+//9월 14일 11시 54분 : 상위 타입으로 exception 잡기
 public class C11polymorphism {
     public static void main(String[] args) {
         try {
@@ -10,8 +9,10 @@ public class C11polymorphism {
         }catch (ArithmeticException e){
             //동일한 예외처리코드
         }
-         try {
-             // NullPointerException이 발생하든, ArithmeticException이 발생하든 상위타입의 코드로 처리 가능
+
+        try {
+             // NullPointerException이 발생하든,
+            // ArithmeticException이 발생하든 상위타입의 코드로 처리 가능
          }catch (RuntimeException e){
              //여러 exception 의 상위 타입으로 한번에 잡을 수 있음
              //Object는 불가능, throwable까지만 가능.

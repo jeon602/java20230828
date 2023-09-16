@@ -3,17 +3,17 @@ package ch11exception.lecture;
 
 public class C07finally {
     public static void main(String[] args) {
-        System.out.println("c1");
+        System.out.println("code1");
         try {
-            int j = 3/0;
-            System.out.println("c2");
+            int j = 3 / 0;
+            System.out.println("code2");
 //            return;
         }catch (ArithmeticException e) {
-            System.out.println("c3");
+            System.out.println("code3");
         }finally {
-            System.out.println("c4");
+            System.out.println("code4");
         }
-        System.out.println("c5");
+        System.out.println("code5");
         //int j = 3/0;가 발생하면 1345
         //int j = 3/3; 실행 XX 하면 ,,,124
 

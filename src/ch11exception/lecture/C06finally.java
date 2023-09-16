@@ -13,9 +13,10 @@ public class C06finally {
             System.out.println("code3");
         }finally {
             //finally block은 exception과 관계없이 실행되는 block이다
+            //finallu block 예외 처리 와는 관계어뵤이 실행되는 block.
             System.out.println("꼭 실행코드!! ");
-
         }
+
     System.out.println("code4");
     }
 }
