@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
-public class C02OutputStream {
+public class C02outputStream {
     public static void main(String[] args) {
      try {
          OutputStream os = new FileOutputStream("out.txt");
