@@ -21,6 +21,4 @@ public class C03client {
             e.printStackTrace();
         }
     }
-
-
 }
