@@ -1,0 +1,35 @@
+2023-10-11 오전 10:53  UPDATE 
+
+redirect attribute  25controller : sub9를 예로 
+controller의 request handler 메소드의 리턴이 void또는  null 이먄 view의 이름으로 해석된다 
+string d이먄 뷰의 이름으로 해석한다
+redirect: 하고 접두어가 붙으면
+응답코드가 302고, location의 응답헤더의 값이 접두어 이후의 값으로 셋팅
+return "redirect: http://www.naver.com 
+       "redirect: /main25/sub10이라면,,
+@Getmapping("sub")
+응답코드 302 
+첫번째 요청에 응답 헤더를 보면, 쿠키 X로 갔다. 
+두번째 요청에서도 쿠키 x로 되어 있는 것으로 보아 
+  
+
+
+redirect라는 속성을 사용하여 안전하게 
+addflashattribute 
+addattribute 
+쿼리 스트링에 request parameter로 붙는다
+rttr.addattribute("abc","def");
+
+모델에 붙이는데 session을잠시 거침re
+rttr.addFLashAttribute("email" ,""abc@hmail.com)
+return addAttribute;
+
+
+
+
+
+
+ㅈㅇㄽ ㄴㅇㅂㅇㅅ ㄱㅁ하기
+
+
+

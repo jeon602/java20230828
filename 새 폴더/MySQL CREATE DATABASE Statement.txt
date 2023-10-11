@@ -1,0 +1,33 @@
+MySQL CREATE DATABASE Statement
+syntax: CREATE DATABASE databasename;
+ex) CREATE DATABASE testDB; *** Make sure you have admin  
+Once a database is created .... you can check it() ---- with the following Sql command _ SHOW DATABASES;
+ _Practice1. make new Database 
+ CREATE DATABASE testDB;    ++++ SHOW DATABASES;
+
+＃DROP DATABASE
+
+DROP DATABASE databasename;
+데이터를 지우기 전 확인하고 지울 것. 
+- delete a database 지우는 건 데이터 정보를 완전히 삭제하기 때문에 확인 하고 또 확인한 후에 할 것.
+Drop DATABASE testDB;
+AFTER you dropped a database, you can check ------SHOW DATABASES;
+
+
+＃CREATE TABLE 
+SYNTAX : CREATE TABLE tablename (columm datatype,columm datatype,columm datatype.....);
+
+
+CREATE TABLE PERSON (PersonID int,
+		     LastName varchar(255),
+		     FirstName varchar(255),
+  		     Address varchar(255),
+		     City varchar(255)
+		);
+
+
+
+# Alter Table  : Add Column 
+-- 컬럼을 추가할 때 다음과 같이 입력한다
+ ALTER TABLE tablename;
+ Add column name 

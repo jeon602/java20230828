@@ -1,0 +1,118 @@
+2023-10-11
+http://localhost:8080/main25/sub1
+sql = UPDATE(수정)네영 / DELETE(1010복습) / / / 
+controller 25의 sub5번 오전 10:38 2023-10-11기준  강사님의 코드와 비교 할 것. 
+배송 업체 정보 변경
+redirectAttribute  오전 10:44 2023-10-11
+
+
+
+
+
+controller25- sub 4~ sub6 
+UPDATE content & why you t that
+
+
+
+
+
+
+*************************************************
+CONTROLLER25 20231011
+@GetMapping("sub4")
+    public void method4() throws SQLException {
+        String sql = """
+                UPDATE shippers
+                SET
+                    shipperName = ?,
+                    phone = ?
+                WHERE
+                    shipperId = ?
+                """;
+        Connection connection = dataSource.getConnection();
+        PreparedStatement statement = connection.prepareStatement(sql);
+
+        try (connection; statement) {
+            statement.setString(1, "이강인");
+            statement.setString(2, "01077778888");
+            statement.setInt(3, 1);
+
+            int rows = statement.executeUpdate();
+
+            if (rows == 1) {
+                System.out.println("잘 변경됨");
+            } else {
+                System.out.println("뭔가 잘 못됨");
+            }
+
+        }
+
+    }
+
+    @GetMapping("sub5")
+    public void method5(@RequestParam("id") Integer shipperId, Model model) throws SQLException {
+        String sql = """
+                SELECT * FROM shippers
+                WHERE shipperId = ?
+                """;
+
+        Connection connection = dataSource.getConnection();
+        PreparedStatement statement = connection.prepareStatement(sql);
+
+        try (connection; statement) {
+            statement.setInt(1, shipperId);
+
+            ResultSet resultSet = statement.executeQuery();
+
+            try (resultSet) {
+                if (resultSet.next()) {
+                    model.addAttribute("shipper", Map.of("shipperId", resultSet.getInt("shipperId"),
+                            "shipperName", resultSet.getString("shipperName"),
+                            "phone", resultSet.getString("phone")));
+                }
+
+            }
+
+        }
+
+    }
+
+    @PostMapping("sub5")
+    public String method6(
+            @RequestParam("id") Integer shipperId,
+            @RequestParam("name") String shipperName,
+            @RequestParam("phone") String phone,
+            RedirectAttributes rttr
+    ) throws SQLException {
+        String sql = """
+                UPDATE shippers
+                SET shipperName = ?,
+                    phone = ?
+                WHERE
+                    shipperId = ?
+                """;
+        Connection connection = dataSource.getConnection();
+        PreparedStatement statement = connection.prepareStatement(sql);
+        try (connection; statement) {
+            statement.setString(1, shipperName);
+            statement.setString(2, phone);
+            statement.setInt(3, shipperId);
+
+            int rows = statement.executeUpdate();
+
+            if (rows == 1) {
+                System.out.println("잘 변경됨");
+            } else {
+                System.out.println("문제 생김");
+            }
+
+        }
+
+        rttr.addAttribute("id", shipperId);
+        return "redirect:/main25/sub5";
+    }
+
+//    1번 고객의 이름 수정하기
+//    5번 직원이 notees 변경하기
+//    1번 공급자의 전화번호 , 주소 변경하기
+}
